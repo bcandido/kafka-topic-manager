@@ -1,0 +1,4 @@
+
+version: "1"
+domain: kafka-topic-manager.kubernetes.bcandido.com
+repo: github.com/bcandido/kafka-topic-manager
