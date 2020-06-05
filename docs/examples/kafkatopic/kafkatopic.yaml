@@ -1,0 +1,7 @@
+note: KafkaTopic Example
+sample: |
+  apiVersion: kafka.kafka-topic-manager.kubernetes.bcandido.com/v1
+  kind: KafkaTopic
+  metadata:
+    name: kafkatopic-example
+  spec:

@@ -1,0 +1,9 @@
+apiVersion: kafka.kafka-topic-manager.kubernetes.bcandido.com/v1
+kind: KafkaTopic
+metadata:
+  name: topic-name
+  labels: 
+    cluster: dc1
+spec:
+  partitions: 1
+  replicas: 1
